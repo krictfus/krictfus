@@ -108,3 +108,22 @@ payload-pluggable batch task runner for isolated, no-platform environments. **Fe
 
 > 中文文档是这个账号的权威版本；英文内容以摘要为主。
 > The Chinese docs are authoritative on this account; English content is mostly summary.
+
+---
+
+### 关于 "krictfus" 这个名字（以及证书上的那个名字）
+
+先说证书上的名字：我身份证上的名字拼音是 `Wu Haomou`，证书上的名字改不了，所以它就在那儿了。
+我其实**不太想公开自己的名字**，但要把证书放上来就绕不过去 
+
+再说 `krictfus`：它原本只是**一串没有任何意义的字符**，我用它当昵称。
+但现在我想让它变得**有那么点意义** —— 这就是我在做这些事的原因：
+把踩过的坑写成文档，把工具开源出来，把该验证的东西都放成能点开的链接。
+
+如果哪天有人看到 `krictfus`，能想起:"哦，那是个挺厉害的家伙"，那就太好了。
+
+<sub>**In English** — About the name on my certificates: my legal name in pinyin is Wu Haomou, and a certificate cannot be edited, so there it is. I would rather not publish my real name; this is my compromise — no Chinese name, just the pinyin.
+
+As for krictfus: it was originally a string of characters with no meaning at all, and I used it as a nickname. But now I would like to give it some meaning — which is exactly why I am doing all of this: writing down what I broke and learned, open-sourcing the tools, and putting everything verifiable behind a clickable link.
+
+If one day someone sees "krictfus" and thinks, "oh, that one's a pretty impressive guy" — that would be wonderful.</sub>
