@@ -47,15 +47,19 @@ payload-pluggable batch task runner for isolated, no-platform environments. **Fe
 <summary>📄 证书原件（点击展开 4 张图）</summary>
 
 **RHCA**（Red Hat Certified Architect in Enterprise Linux）
+
 <img src="RHCA.png" width="640" alt="RHCA certificate">
 
 **RHCE**（Red Hat Certified Engineer in Enterprise Linux）
+
 <img src="RHCE.png" width="640" alt="RHCE certificate">
 
 **RHCSA**（Red Hat Certified System Administrator）
+
 <img src="RHCSA.png" width="640" alt="RHCSA certificate">
 
 **HCIP-Datacom**（华为认证 ICT 专业级 · 数据通信，2024-12）
+
 <img src="HCIP-Datacom.png" width="640" alt="HCIP-Datacom certificate">
 
 </details>
