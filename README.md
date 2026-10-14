@@ -104,7 +104,3 @@ payload-pluggable batch task runner for isolated, no-platform environments. **Fe
 
 > 中文文档是这个账号的权威版本；英文内容以摘要为主。
 > The Chinese docs are authoritative on this account; English content is mostly summary.
-<img width="2376" height="1836" alt="RHCSA" src="https://github.com/user-attachments/assets/19f4e71e-9d3a-46bd-beeb-1bdb3388b289" />
-<img width="2376" height="1836" alt="RHCE" src="https://github.com/user-attachments/assets/fc45449f-b506-4a29-84f7-98107375adaf" />
-<img width="2376" height="1836" alt="RHCA" src="https://github.com/user-attachments/assets/414c5d5a-81a0-481e-995b-924344cccb5b" />
-<img width="2526" height="1786" alt="HCIP-Datacom" src="https://github.com/user-attachments/assets/b0b01f63-f87a-45ac-bdfe-df99091b0df5" />
