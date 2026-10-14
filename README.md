@@ -122,8 +122,8 @@ payload-pluggable batch task runner for isolated, no-platform environments. **Fe
 
 如果哪天有人看到 `krictfus`，能想起:"哦，那是个挺厉害的家伙"，那就太好了。
 
-<sub>**In English** — About the name on my certificates: my legal name in pinyin is Wu Haomou, and a certificate cannot be edited, so there it is. I would rather not publish my real name; this is my compromise — no Chinese name, just the pinyin.
+**English** — About the name on my certificates: my legal name in pinyin is Wu Haomou, and a certificate cannot be edited, so there it is. I would rather not publish my real name.
 
 As for krictfus: it was originally a string of characters with no meaning at all, and I used it as a nickname. But now I would like to give it some meaning — which is exactly why I am doing all of this: writing down what I broke and learned, open-sourcing the tools, and putting everything verifiable behind a clickable link.
 
-If one day someone sees "krictfus" and thinks, "oh, that one's a pretty impressive guy" — that would be wonderful.</sub>
+If one day someone sees "krictfus" and thinks, "oh, that one's a pretty impressive guy" — that would be wonderful.
