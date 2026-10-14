@@ -1,6 +1,10 @@
 ### Hi, I'm krictfus 👋
 
-**English** — An ordinary Linux ops engineer moving from *classic operations* towards *automation / platform*
+**English** — An ordinary Linux ops engineer moving from *classic operations* towards *automation / platform*<img width="2376" height="1836" alt="RHCSA" src="https://github.com/user-attachments/assets/38bd9b77-0d86-425b-9ed7-181e250e056a" />
+<img width="2376" height="1836" alt="RHCE" src="https://github.com/user-attachments/assets/681d4fde-8340-4652-8b26-df6e49b02072" />
+<img width="2376" height="1836" alt="RHCA" src="https://github.com/user-attachments/assets/194ca98a-5efd-440e-bad9-f3d7bc260d68" />
+<img width="2526" height="1786" alt="HCIP-Datacom" src="https://github.com/user-attachments/assets/8b3c90e4-e713-4290-8240-48a0ab0c8e71" />
+
 work. **I have just started using GitHub**; this profile and my project are my first serious attempt here.
 Code is written with AI assistance — the architecture, the constraints and the lessons learned came from my
 own field work. Red Hat certified: **RHCA** plus seven more current credentials (verifiable in one click
