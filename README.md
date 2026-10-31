@@ -30,8 +30,6 @@ payload-pluggable batch task runner for isolated, no-platform environments. **Fe
 **不需要平台、不需要预置凭据，操作者只需要会 `cd` 和 `vim`。**
 
 - 实测：三层漏斗让"2 台可达 + 1 台口令错 + 1 台不可达"从 **138 秒降到 21 秒**；单台端到端约 10~12 秒
-- 最新版本：[**v3.4.0**](https://github.com/krictfus/agentless-fieldkit/releases/tag/v3.4.0)
-  （Release 附件含控制端镜像，附 sha256 可校验）
 - 中文说明（权威版本）：[README.md](https://github.com/krictfus/agentless-fieldkit/blob/main/README.md)
 - 设计理由（为什么这么设计）：[docs/DESIGN.md](https://github.com/krictfus/agentless-fieldkit/blob/main/docs/DESIGN.md)
 
