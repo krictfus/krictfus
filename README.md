@@ -15,65 +15,9 @@ payload-pluggable batch task runner for isolated, no-platform environments. **Fe
 
 - 🔭 目前在做：**[agentless-fieldkit](https://github.com/krictfus/agentless-fieldkit)** —— 面向隔离网络、
   无平台环境的**载荷可替换批量任务框架**
-- 🌱 正在学：CL260（Ceph 存储）、DO374（Ansible 自动化平台）；**GitHub 也是刚上手**
-- 🎓 认证：**RHCA** + 7 项红帽当前有效认证（一键在线验证见下）
-- 💬 交流：欢迎开 issue 或直接找我。我开仓库主要是想**得到指导**，不是来证明什么
-- 🧭 一路走来：计算机网络专科 → RHCSA/RHCE → RHCA → 真实机房交付。
-  **代码借助 AI 完成，但架构、约束与踩过的坑是我自己的**
-
----
-
-## 认证 / Certifications
-
-🔎 **官方一键验证**：https://rhtapps.redhat.com/verify?certId=250-056-041
-（点进去就是红帽官网的实时验证结果，不需要相信这里写的任何字）
-
-🔖 **Credly 官方徽章**：[RHCA](https://www.credly.com/badges/36fae2d1-1c09-4c9b-ac25-4d8a9e2fca80)
-｜ [RHCE](https://www.credly.com/badges/4e06e1c5-1e57-4d5b-bbb6-e087e7066b78)
-｜ [RHCSA](https://www.credly.com/badges/6ab2135d-7092-4cf9-b368-63f03614b2e1)
-
-| 认证 | 考试 | 取得时间 | 有效期至 |
-|---|---|---|---|
-| **RHCA** — Red Hat Certified Architect in Enterprise Linux | — | 2026-08-31 | 2029-08-31 |
-| **RHCE** — Red Hat Certified Engineer in Enterprise Linux | EX294 | 2025-04-24 | 2029-08-31 |
-| **RHCE** — Red Hat Certified Engineer in Ansible | EX294 | 2025-04-24 | 2029-08-31 |
-| **RHCASA** — Certified Advanced System Administrator in Ansible | — | 2025-04-24 | 2029-08-31 |
-| **RHCSA** — Red Hat Certified System Administrator | EX200 | 2025-04-24 | 2029-08-31 |
-| **RHCS** — Specialist in Linux Performance Tuning | EX442 | 2026-07-13 | 2029-08-31 |
-| **RHCS** — Specialist in High Availability Clustering | EX436 | 2026-08-31 | 2029-08-31 |
-| **RHCS** — Specialist in Services Management and Automation | EX358 | 2026-05-19 | 2029-08-31 |
-
-<details>
-<summary>📄 证书原件（点击展开 4 张图）</summary>
-
-**RHCA**（Red Hat Certified Architect in Enterprise Linux）
-
-<img src="RHCA.png" width="640" alt="RHCA certificate">
-
-**RHCE**（Red Hat Certified Engineer in Enterprise Linux）
-
-<img src="RHCE.png" width="640" alt="RHCE certificate">
-
-**RHCSA**（Red Hat Certified System Administrator）
-
-<img src="RHCSA.png" width="640" alt="RHCSA certificate">
-
-**HCIP-Datacom**（华为认证 ICT 专业级 · 数据通信，2024-12）
-
-<img src="HCIP-Datacom.png" width="640" alt="HCIP-Datacom certificate">
-
-</details>
-
-### 更早的底子（不是红帽体系，但构成了起点）
-
-我大学的专业是**计算机网络**，HCIP-Datacom 是我毕业之后**自学考的**（2024-12-15 取得，有效期至 2027-12-15）。
-老实说：**那些协议细节我早就忘光了** —— 后来转去做 Linux，一部分原因也是当时觉得网络这条路走不宽。
-
-但有意思的是，**那些基本概念我一直在用**：网段、网关、路由、二层/三层……
-这个项目里[「控制端虚拟机的网络打通」](https://github.com/krictfus/agentless-fieldkit/blob/main/README.md)那一节，
-就是这些底子在起作用。
-
-<sub>华为证书编号（可在华为认证官网查询）：`010202701193809662692584764`</sub>
+- 🌱 正在学：Redhat知识体系 ；**GitHub 刚上手**
+- 💬 交流：欢迎开 issue 或直接找我。
+  **代码借助 AI 完成，但架构、理念、踩坑是我自己实现的**
 
 ---
 
@@ -93,37 +37,5 @@ payload-pluggable batch task runner for isolated, no-platform environments. **Fe
 
 ---
 
-## 正在学什么 / Currently learning
-
-| 方向 | 状态 |
-|---|---|
-| Linux 传统运维（RHEL 体系） | **主战场** |
-| Ansible / 自动化与批量交付 | 在用，持续深入 |
-| Ceph 存储（CL260） | 进行中 |
-| Ansible 自动化平台（DO374） | 进行中 |
-| GitHub / Git 协作 | **刚起步**（这是我第一次正经用 GitHub） |
-| 云原生 / Kubernetes | 尚未接触 |
-
----
-
 > 中文文档是这个账号的权威版本；英文内容以摘要为主。
 > The Chinese docs are authoritative on this account; English content is mostly summary.
-
----
-
-### 关于 "krictfus" 这个名字（以及证书上的那个名字）
-
-先说证书上的名字：我身份证上的名字拼音是 `Wu Haomou`，证书上的名字改不了，所以它就在那儿了。
-我其实**不太想公开自己的名字**，但要把证书放上来就绕不过去 
-
-再说 `krictfus`：它原本只是**一串没有任何意义的字符**，我用它当昵称。
-但现在我想让它变得**有那么点意义** —— 这就是我在做这些事的原因：
-把踩过的坑写成文档，把工具开源出来，把该验证的东西都放成能点开的链接。
-
-如果哪天有人看到 `krictfus`，能想起:"哦，那是个挺厉害的家伙"，那就太好了。
-
-**English** — About the name on my certificates: my legal name in pinyin is Wu Haomou, and a certificate cannot be edited, so there it is. I would rather not publish my real name.
-
-As for krictfus: it was originally a string of characters with no meaning at all, and I used it as a nickname. But now I would like to give it some meaning — which is exactly why I am doing all of this: writing down what I broke and learned, open-sourcing the tools, and putting everything verifiable behind a clickable link.
-
-If one day someone sees "krictfus" and thinks, "oh, that one's a pretty impressive guy" — that would be wonderful.
