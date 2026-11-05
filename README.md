@@ -1,23 +1,8 @@
-### Hi, I'm krictfus 👋
+### 你好，我是 krictfus 👋
 
-**English** — An ordinary Linux ops engineer moving from *classic operations* towards *automation / platform*
-work. **I have just started using GitHub**; this profile and my project are my first serious attempt here.
-Code is written with AI assistance — the architecture, the constraints and the lessons learned came from my
-own field work. Red Hat certified: **RHCA** plus seven more current credentials (verifiable in one click
-below). Main project: [agentless-fieldkit](https://github.com/krictfus/agentless-fieldkit) — a
-payload-pluggable batch task runner for isolated, no-platform environments. **Feedback is very welcome.**
-
----
-
-### 你好，我是 krictfus
-
-普通的 Linux 运维，正在从"传统运维"往 **自动化 / 平台方向** 走。
-
-- 🔭 目前在做：**[agentless-fieldkit](https://github.com/krictfus/agentless-fieldkit)** —— 面向隔离网络、
-  无平台环境的**载荷可替换批量任务框架**
-- 🌱 正在学：Redhat知识体系 ；**GitHub 刚上手**
-- 💬 交流：欢迎开 issue 或直接找我。
-  **代码借助 AI 完成，但架构、理念、踩坑是我自己实现的**
+普通 Linux 运维，正在从"传统运维"往 **自动化 / 平台方向** 走。
+Red Hat 认证 **RHCA** 等 8 项（[点这里一键核验](https://rhtapps.redhat.com/verify?certId=250-056-041)）。
+代码借助 AI 完成；**架构、约束与取舍由我自己定义并负责**。
 
 ---
 
@@ -25,15 +10,25 @@ payload-pluggable batch task runner for isolated, no-platform environments. **Fe
 
 ### [agentless-fieldkit](https://github.com/krictfus/agentless-fieldkit)
 
-载荷可替换的批量任务执行框架：给它一份主机清单 + 一份你自己的脚本，它负责下发一次性密钥、并行执行、
-按台回收产物、分类结果，并在目标机上**零残留**（含失败路径）。
-**不需要平台、不需要预置凭据，操作者只需要会 `cd` 和 `vim`。**
+**拎包入驻"三无机房"的现场批量任务工具**（无平台 / 无预置凭据 / 无台账）：
+给它一份主机清单 + 一份你自己的脚本，它负责下发一次性密钥、并行执行、按台回收产物、
+五分类结果，目标机**零残留**（含失败与中断路径）。操作者只需要会 `cd` 和 `vi`。
 
-- 实测：三层漏斗让"2 台可达 + 1 台口令错 + 1 台不可达"从 **138 秒降到 21 秒**；单台端到端约 10~12 秒
-- 中文说明（权威版本）：[README.md](https://github.com/krictfus/agentless-fieldkit/blob/main/README.md)
-- 设计理由（为什么这么设计）：[docs/DESIGN.md](https://github.com/krictfus/agentless-fieldkit/blob/main/docs/DESIGN.md)
+- **实测数字**：三层漏斗让「2 台可达 + 1 台口令错 + 1 台不可达」从 **138 秒降到 21 秒**；单台端到端约 10~12 秒
+- **工程质量**：离线自检 `selftest.sh`；逐行评审修复记录（[docs/REVIEW.md](https://github.com/krictfus/agentless-fieldkit/blob/main/docs/REVIEW.md)）；
+  中断语义实测——Ctrl-C 不再被报成"成功"（v3.4.2）
+- **定位诚实**：与 Ansible EE / Puppet Bolt / Fabric / OliveTin 等的逐项对照写在 README 第 5 节——
+  它不是"更好的平台"，是"没有平台可依赖时的作战包"
+- 文档：[README（中文权威版）](https://github.com/krictfus/agentless-fieldkit/blob/main/README.md) ·
+  [设计理念](https://github.com/krictfus/agentless-fieldkit/blob/main/docs/DESIGN.md) ·
+  [实战记录](https://github.com/krictfus/agentless-fieldkit/blob/main/docs/实战记录.md)
 
 ---
 
-> 中文文档是这个账号的权威版本；英文内容以摘要为主。
-> The Chinese docs are authoritative on this account; English content is mostly summary.
+**English** — A Linux ops engineer moving from classic operations toward automation / platform work.
+RHCA plus seven more current credentials (verifiable above). Main project:
+[agentless-fieldkit](https://github.com/krictfus/agentless-fieldkit) — a walk-in batch task runner for
+"three-nothing" sites (no platform, no pre-provisioned credentials, no inventory): containerized,
+agentless, payload-pluggable, zero residue on targets. Code is written with AI assistance; the
+architecture, constraints and trade-offs are my own. **Chinese docs are authoritative on this account.**
+Feedback is very welcome — issues and PRs please.
